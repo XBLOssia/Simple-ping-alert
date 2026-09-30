@@ -1,0 +1,12 @@
+# Build output
+dist/
+
+# Local settings / logs
+settings.json
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,10 @@
+{
+  "_readme": "Site defaults for PingAlert.ps1. Keep this file next to the script. Blank or missing values use the built-in defaults. Users' own saved settings and command-line switches override these.",
+  "SmtpServer": "",
+  "SmtpPort": 25,
+  "FallbackDomain": "",
+  "FailCount": 2,
+  "RecoverCount": 2,
+  "PingTimeoutMs": 1000,
+  "PingIntervalMs": 1000
+}
