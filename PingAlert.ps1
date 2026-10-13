@@ -29,6 +29,8 @@ Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
+$Version = "1.0.0"
+
 # ==============================================================================
 # CONFIGURATION
 # Site defaults come from PingAlert.defaults.json next to this script (optional).
@@ -304,7 +306,7 @@ function New-Label($text, $x, $y) {
 }
 
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Ping Alert"
+$form.Text = "Ping Alert v$Version"
 $form.ClientSize = New-Object System.Drawing.Size(540, 510)
 $form.MinimumSize = New-Object System.Drawing.Size(460, 430)
 $form.StartPosition = "CenterScreen"

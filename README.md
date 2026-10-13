@@ -22,7 +22,7 @@ Built for sysadmins and techs who want to "bug me when this thing goes down" wit
 
 ## Quick start
 
-1. Download the zip (or clone the repo) and extract it. Keep all the files in the same folder.
+1. Download `PingAlert-vX.Y.Z.zip` from the [latest release](../../releases/latest) (or clone the repo) and extract it. Keep all the files in the same folder. Windows marks files downloaded from the internet, so first right-click the zip, choose **Properties**, tick **Unblock** and press OK, then extract; otherwise SmartScreen may warn when you launch `PingAlert.cmd`.
 2. Double-click **`PingAlert.cmd`**. (It launches the script in STA mode with the execution policy bypassed for that process only and hides the console window.)
 3. Fill in the host to ping and the email recipients, then press **Start**. On first run also enter the SMTP server, unless your admin shipped a `PingAlert.defaults.json` that already contains it (see [Site defaults](#site-defaults-pingalertdefaultsjson)). Your entries are remembered for next time.
 
